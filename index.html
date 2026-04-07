@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Singtel Infotech — Next-Gen Investment Platform</title>
+  <link rel="icon" type="image/x-icon" href="./logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================== NAVBAR ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-sing">SING</span><span class="logo-tel">TEL</span>
+        <span class="logo-tag">INFOTECH</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#wallets">Wallets</a></li>
+        <li><a href="#roi">Income</a></li>
+        <li><a href="#levels">Levels</a></li>
+        <li><a href="#loan">Loans</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#terms">Terms</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+        <li><a href="https://www.singtelinfotech.net/login.php" class="nav-cta">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================== HERO ========================================== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-circle-dot pulse-dot"></i>
+        Blockchain-Powered Investment Platform
+      </div>
+      <h1 class="hero-title">
+        Build Wealth<br/>
+        <span class="gradient-text">Intelligently</span>
+      </h1>
+      <p class="hero-subtitle">
+        Singtel Infotech combines blockchain transparency with structured ROI programmes — 
+        delivering daily returns, multi-level income, and community-powered growth.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-pill">
+          <span class="stat-num">0.33%</span>
+          <span class="stat-label">Daily ROI</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-pill">
+          <span class="stat-num">2X</span>
+          <span class="stat-label">Max Returns</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-pill">
+          <span class="stat-num">600</span>
+          <span class="stat-label">Day Duration</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#contact-section" target="_blank" class="btn btn--primary">
+          Start Investing <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#about" class="btn btn--ghost">
+          Learn More <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-ring orbit-ring--outer">
+        <div class="orbit-coin orbit-coin--1"><i class="fa-brands fa-bitcoin"></i></div>
+      </div>
+      <div class="orbit-ring orbit-ring--mid">
+        <div class="orbit-coin orbit-coin--2"><i class="fa-solid fa-coins"></i></div>
+      </div>
+      <div class="orbit-ring orbit-ring--inner">
+        <div class="orbit-coin orbit-coin--3"><i class="fa-solid fa-chart-line"></i></div>
+      </div>
+      <div class="orbit-center">
+        <div class="center-logo">S</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== ABOUT ========================================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">Platform Overview</div>
+      <h2 class="section-title">What is Singtel Infotech?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">Singtel Infotech is a blockchain-based investment platform designed to make structured, passive income accessible to everyone — from first-time investors to seasoned leaders.</p>
+          <p>Using USDT on the BEP20 blockchain, the platform delivers daily ROI, multi-level referral commissions, loan facilities, and transparent transaction records — all in one unified ecosystem.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Blockchain Security</span>
+            </div>
+            <div class="pillar">
+              <i class="fa-solid fa-eye"></i>
+              <span>Full Transparency</span>
+            </div>
+            <div class="pillar">
+              <i class="fa-solid fa-users"></i>
+              <span>Community-First</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="feature-card anim-in">
+            <div class="fc-icon"><i class="fa-solid fa-user-plus"></i></div>
+            <h3>Free Registration</h3>
+            <p>No entry cost — join the platform with zero upfront fees. Simple onboarding for all new users.</p>
+          </div>
+          <div class="feature-card anim-in" style="--delay:0.15s">
+            <div class="fc-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Simple Onboarding</h3>
+            <p>Get started in minutes. A streamlined process ensures every new user can activate their account instantly.</p>
+          </div>
+          <div class="feature-card anim-in" style="--delay:0.3s">
+            <div class="fc-icon"><i class="fa-solid fa-wallet"></i></div>
+            <h3>Integrated Wallets</h3>
+            <p>USDT BEP20 wallet integration for seamless deposits, withdrawals, and real-time balance tracking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== WALLETS ========================================== -->
+  <section class="section wallets-section" id="wallets">
+    <div class="container">
+      <div class="section-label">Financial Infrastructure</div>
+      <h2 class="section-title">Wallet System</h2>
+      <p class="section-sub">Three purpose-built wallets power every transaction on the platform.</p>
+
+      <div class="wallet-trio">
+
+        <div class="wallet-card wallet-card--main">
+          <div class="wc-header">
+            <div class="wc-icon"><i class="fa-solid fa-vault"></i></div>
+            <div class="wc-badge">Main Wallet</div>
+          </div>
+          <h3>Deposit & Fund</h3>
+          <ul class="wc-list">
+            <li><i class="fa-solid fa-check"></i> Used for package purchases</li>
+            <li><i class="fa-solid fa-check"></i> Fund your account via BEP20</li>
+            <li><i class="fa-solid fa-check"></i> Accepts USDT deposits only</li>
+            <li><i class="fa-solid fa-check"></i> Secure & transparent on-chain</li>
+          </ul>
+          <div class="wc-chip">USDT BEP20</div>
+        </div>
+
+        <div class="wallet-card wallet-card--income">
+          <div class="wc-header">
+            <div class="wc-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+            <div class="wc-badge">Income Wallet</div>
+          </div>
+          <h3>Earn & Withdraw</h3>
+          <ul class="wc-list">
+            <li><i class="fa-solid fa-check"></i> 100% ROI + Level income credited here</li>
+            <li><i class="fa-solid fa-check"></i> Used for withdrawals & loan repayment</li>
+            <li><i class="fa-solid fa-check"></i> Minimum withdrawal: <strong>$10</strong></li>
+            <li><i class="fa-solid fa-check"></i> 7% service charge per withdrawal</li>
+            <li><i class="fa-solid fa-check"></i> Manual withdrawal — admin monitored</li>
+          </ul>
+          <div class="wc-chip accent">Real-Time Updates</div>
+        </div>
+
+        <div class="wallet-card wallet-card--loan">
+          <div class="wc-header">
+            <div class="wc-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+            <div class="wc-badge">Loan Wallet</div>
+          </div>
+          <h3>Borrow & Top-Up</h3>
+          <ul class="wc-list">
+            <li><i class="fa-solid fa-check"></i> Records loan credits issued to users</li>
+            <li><i class="fa-solid fa-check"></i> Used for self top-up & others' ID top-up</li>
+            <li><i class="fa-solid fa-check"></i> Investor: min $1000 → 50% loan eligible</li>
+            <li><i class="fa-solid fa-check"></i> Leader: income-based 50% loan eligible</li>
+            <li><i class="fa-solid fa-check"></i> No service charge on loan wallet use</li>
+          </ul>
+          <div class="wc-chip gold">No Service Charge</div>
+        </div>
+
+      </div>
+
+      <!-- Supported Wallets -->
+      <div class="supported-wallets">
+        <div class="sw-label">Compatible Wallets</div>
+        <div class="sw-grid">
+          <div class="sw-item">
+            <div class="sw-icon sw-safepal"><i class="fa-solid fa-shield"></i></div>
+            <span>SafePal</span>
+          </div>
+          <div class="sw-item">
+            <div class="sw-icon sw-meta"><i class="fa-solid fa-mask"></i></div>
+            <span>MetaMask</span>
+          </div>
+          <div class="sw-item">
+            <div class="sw-icon sw-trust"><i class="fa-solid fa-lock"></i></div>
+            <span>Trust Wallet</span>
+          </div>
+          <div class="sw-item">
+            <div class="sw-icon sw-bnb"><i class="fa-solid fa-b"></i></div>
+            <span>Binance</span>
+          </div>
+          <div class="sw-item">
+            <div class="sw-icon sw-token"><i class="fa-solid fa-cube"></i></div>
+            <span>Token Pocket</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== ROI / INCOME ========================================== -->
+  <section class="section roi-section" id="roi">
+    <div class="container">
+      <div class="section-label">Commission Types</div>
+      <h2 class="section-title">Return on Investment</h2>
+
+      <div class="roi-hero-card">
+        <div class="roi-left">
+          <div class="roi-big-number">0.33<span>%</span></div>
+          <div class="roi-per">Daily ROI Payout</div>
+          <p>Automated daily earnings credited directly to your Income Wallet. A passive income stream that works while you sleep.</p>
+          <div class="roi-tags">
+            <span class="tag">600 Day Duration</span>
+            <span class="tag tag--gold">2X Maximum Cap</span>
+            <span class="tag">100% Income Wallet</span>
+            <span class="tag">Auto Split</span>
+          </div>
+        </div>
+        <div class="roi-right">
+          <div class="roi-timeline">
+            <div class="rt-item">
+              <div class="rt-circle"><i class="fa-solid fa-play"></i></div>
+              <div class="rt-content">
+                <strong>Day 1</strong>
+                <span>Investment activates, daily ROI begins</span>
+              </div>
+            </div>
+            <div class="rt-line"></div>
+            <div class="rt-item">
+              <div class="rt-circle"><i class="fa-solid fa-chart-line"></i></div>
+              <div class="rt-content">
+                <strong>Daily</strong>
+                <span>0.33% credited automatically to income wallet</span>
+              </div>
+            </div>
+            <div class="rt-line"></div>
+            <div class="rt-item">
+              <div class="rt-circle gold"><i class="fa-solid fa-trophy"></i></div>
+              <div class="rt-content">
+                <strong>Day 600 / 2X Cap</strong>
+                <span>Maximum returns reached — top-up to continue</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Income Capping -->
+      <div class="capping-section">
+        <h3 class="sub-heading">Income Capping Rules</h3>
+        <div class="capping-grid">
+          <div class="cap-card">
+            <div class="cap-num">2X</div>
+            <p>Maximum earning is 2× of purchased package value</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <p>Protects the system from over-distribution of rewards</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-icon"><i class="fa-solid fa-handshake"></i></div>
+            <p>Encourages fair play and balanced rewards for all members</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-icon"><i class="fa-solid fa-rotate"></i></div>
+            <p>Motivates users to perform top-ups for continued participation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== LEVELS ========================================== -->
+  <section class="section levels-section" id="levels">
+    <div class="container">
+      <div class="section-label">Multi-Level Structure</div>
+      <h2 class="section-title">Level Income</h2>
+      <p class="section-sub">Earn commissions from your network — up to 10 levels deep.</p>
+
+      <div class="levels-layout">
+        <div class="levels-table-wrap">
+          <table class="levels-table">
+            <thead>
+              <tr>
+                <th>Level</th>
+                <th>Bonus %</th>
+                <th>Qualification</th>
+                <th>Visual</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="level-row level-row--1">
+                <td><span class="lvl-badge">L1</span></td>
+                <td><span class="bonus-val bonus-val--high">20%</span></td>
+                <td>1 Direct Referral</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:100%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L2</span></td>
+                <td><span class="bonus-val bonus-val--high">15%</span></td>
+                <td>2 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:75%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L3</span></td>
+                <td><span class="bonus-val">10%</span></td>
+                <td>3 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:50%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L4</span></td>
+                <td><span class="bonus-val">5%</span></td>
+                <td>4 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:25%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L5</span></td>
+                <td><span class="bonus-val bonus-val--low">3%</span></td>
+                <td>5 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:15%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L6</span></td>
+                <td><span class="bonus-val bonus-val--low">3%</span></td>
+                <td>6 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:15%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L7</span></td>
+                <td><span class="bonus-val bonus-val--low">2%</span></td>
+                <td>7 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:10%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L8</span></td>
+                <td><span class="bonus-val bonus-val--low">2%</span></td>
+                <td>8 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:10%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L9</span></td>
+                <td><span class="bonus-val bonus-val--low">2%</span></td>
+                <td>9 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:10%"></div></div></td>
+              </tr>
+              <tr class="level-row">
+                <td><span class="lvl-badge">L10</span></td>
+                <td><span class="bonus-val bonus-val--low">1%</span></td>
+                <td>10 Direct Referrals</td>
+                <td><div class="bar-cell"><div class="bar-fill" style="width:5%"></div></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="levels-pyramid">
+          <div class="pyramid-title">Network Depth</div>
+          <div class="pyramid-bars">
+            <div class="py-bar" style="--w:100%; --c:#f59e0b">L1 · 20%</div>
+            <div class="py-bar" style="--w:90%; --c:#f97316">L2 · 15%</div>
+            <div class="py-bar" style="--w:80%; --c:#06b6d4">L3 · 10%</div>
+            <div class="py-bar" style="--w:65%; --c:#3b82f6">L4 · 5%</div>
+            <div class="py-bar" style="--w:50%; --c:#6366f1">L5 · 3%</div>
+            <div class="py-bar" style="--w:50%; --c:#6366f1">L6 · 3%</div>
+            <div class="py-bar" style="--w:38%; --c:#8b5cf6">L7 · 2%</div>
+            <div class="py-bar" style="--w:38%; --c:#8b5cf6">L8 · 2%</div>
+            <div class="py-bar" style="--w:38%; --c:#a855f7">L9 · 2%</div>
+            <div class="py-bar" style="--w:25%; --c:#ec4899">L10 · 1%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== LOAN ========================================== -->
+  <section class="section loan-section" id="loan">
+    <div class="container">
+      <div class="section-label">Financial Flexibility</div>
+      <h2 class="section-title">Loan Option</h2>
+      <p class="section-sub">Access liquidity without leaving the ecosystem.</p>
+
+      <div class="loan-grid">
+        <div class="loan-card">
+          <div class="loan-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+          <h4>Borrow Against Package</h4>
+          <p>Request a loan up to the value of your purchased package — instant liquidity from your investment.</p>
+        </div>
+        <div class="loan-card">
+          <div class="loan-icon"><i class="fa-solid fa-gear"></i></div>
+          <h4>Admin-Managed Rates</h4>
+          <p>Interest rates are set and transparently managed by the platform administrator.</p>
+        </div>
+        <div class="loan-card">
+          <div class="loan-icon"><i class="fa-solid fa-rotate-left"></i></div>
+          <h4>Earnings-Based Repayment</h4>
+          <p>Loan repayment is handled via your ongoing earnings — settled before withdrawals are processed.</p>
+        </div>
+        <div class="loan-card">
+          <div class="loan-icon loan-gold"><i class="fa-solid fa-percent"></i></div>
+          <h4>3% Monthly Interest</h4>
+          <p>Straightforward 3% monthly interest rate — no hidden fees, no surprises.</p>
+        </div>
+        <div class="loan-card">
+          <div class="loan-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+          <h4>Timely Monitoring</h4>
+          <p>Admin ensures timely repayments and interest collection to keep the system fair for all.</p>
+        </div>
+        <div class="loan-card loan-card--highlight">
+          <div class="loan-icon loan-teal"><i class="fa-solid fa-crown"></i></div>
+          <h4>Leader Loan Eligibility</h4>
+          <p>Leaders with min $1,000 investment qualify for income-based 50% loans, subject to conditions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== WITHDRAWALS ========================================== -->
+  <section class="section withdrawals-section" id="withdrawals">
+    <div class="container">
+      <div class="section-label">Liquidity Access</div>
+      <h2 class="section-title">Withdrawals</h2>
+
+      <div class="wd-layout">
+        <div class="wd-info">
+          <div class="wd-card">
+            <i class="fa-solid fa-shield-check wd-icon"></i>
+            <h3>Manual & Secure</h3>
+            <p>All withdrawals are processed manually through the admin panel with BEP20 integration — ensuring every transaction is reviewed before release.</p>
+          </div>
+        </div>
+        <div class="wd-specs">
+          <div class="spec-row">
+            <div class="spec-label"><i class="fa-solid fa-arrow-down-to-line"></i> Minimum</div>
+            <div class="spec-val">$10 USDT</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fa-solid fa-arrow-up-from-line"></i> Maximum/Day</div>
+            <div class="spec-val">$1,000 USDT</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fa-solid fa-calendar-day"></i> Frequency</div>
+            <div class="spec-val">Once per day</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fa-solid fa-tag"></i> Service Charge</div>
+            <div class="spec-val accent-val">7%</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fa-solid fa-link"></i> Network</div>
+            <div class="spec-val">USDT BEP20</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== PROJECTS ========================================== -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-label">Fund Deployment</div>
+      <h2 class="section-title">Fund Growth Projects</h2>
+      <p class="section-sub">User investments are deployed across four diversified verticals.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="proj-num">01</div>
+          <div class="proj-icon"><i class="fa-solid fa-chart-candlestick"></i></div>
+          <h3>Trading</h3>
+          <p>Active trading in gold and silver commodity markets — leveraging market volatility for consistent returns.</p>
+          <div class="proj-tag">Gold & Silver</div>
+        </div>
+        <div class="project-card">
+          <div class="proj-num">02</div>
+          <div class="proj-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+          <h3>Online Shopping</h3>
+          <p>Revenue-generating e-commerce operations contributing to the platform's income pool.</p>
+          <div class="proj-tag">E-Commerce</div>
+        </div>
+        <div class="project-card">
+          <div class="proj-num">03</div>
+          <div class="proj-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Community Loans</h3>
+          <p>Internal lending within the community generates interest income that feeds back into the reward pool.</p>
+          <div class="proj-tag">Community Only</div>
+        </div>
+        <div class="project-card">
+          <div class="proj-num">04</div>
+          <div class="proj-icon"><i class="fa-solid fa-building-columns"></i></div>
+          <h3>Land Project</h3>
+          <p>Real estate and land development investments providing stable, long-term capital appreciation.</p>
+          <div class="proj-tag">Real Estate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== TERMS ========================================== -->
+  <section class="section terms-section" id="terms">
+    <div class="container">
+      <div class="section-label">Legal</div>
+      <h2 class="section-title">Terms & Conditions</h2>
+
+      <div class="terms-grid">
+        <div class="term-item">
+          <div class="term-num">01</div>
+          <p>Deposit minimum <strong>$50</strong> · maximum <strong>$10,000</strong></p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">02</div>
+          <p>All deposits & withdrawals in <strong>USDT BEP20 only</strong></p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">03</div>
+          <p>Minimum withdrawal <strong>$10</strong> · maximum <strong>$1,000 per day</strong></p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">04</div>
+          <p><strong>2X capping</strong> applies across all combined income types</p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">05</div>
+          <p><strong>7% service charge</strong> deducted from every withdrawal</p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">06</div>
+          <p>Loan wallet transactions carry <strong>no service charge</strong></p>
+        </div>
+        <div class="term-item">
+          <div class="term-num">07</div>
+          <p>Leader loan eligibility is <strong>subject to conditions</strong> set by admin</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================== CONTACT ========================================== -->
+  <section class="section contact-section" id="contact-section">
+    <!-- ambient glow — reuses hero-glow pattern from existing design -->
+    <div class="contact-glow contact-glow--teal"></div>
+    <div class="contact-glow contact-glow--gold"></div>
+
+    <div class="container">
+      <div class="section-label reveal">Get In Touch</div>
+      <h2 class="section-title reveal">Contact Us</h2>
+      <p class="section-sub reveal">
+        Have questions about investing, wallets, or loan eligibility?
+        Send us a message and our team will respond within 24 hours.
+      </p>
+
+      <div class="contact-layout">
+
+        <!-- ── Info Cards (left column) ── -->
+        <div class="contact-info reveal">
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="contact-info-text">
+              <span class="contact-info-label">Official Website</span>
+              <span class="contact-info-value">www.singtelinfotech.net</span>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon" style="background:var(--blue-dim);border-color:rgba(30,136,255,0.3);color:var(--blue);">
+              <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="contact-info-text">
+              <span class="contact-info-label">Telegram Community</span>
+              <span class="contact-info-value">Join our official channel</span>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon" style="background:var(--gold-dim);border-color:rgba(245,185,69,0.3);color:var(--gold);">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="contact-info-text">
+              <span class="contact-info-label">Response Time</span>
+              <span class="contact-info-value">Within 24 hours</span>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon" style="background:var(--teal-dim);border-color:var(--border-bright);color:var(--teal);">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="contact-info-text">
+              <span class="contact-info-label">WhatsApp Support</span>
+              <span class="contact-info-value">Available for members</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Form Card (right column) ── -->
+        <div class="contact-form-card reveal">
+          <!-- tri-color top border matches the site's gradient accent style -->
+          <div class="contact-card-accent"></div>
+
+          <div class="contact-form-head">
+            <h3>Send Us a Message</h3>
+            <p>Fill in your details and we'll get back to you shortly.</p>
+          </div>
+
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" novalidate>
+            <input type="hidden" name="form-name" value="contact">
+
+            <!-- Row 1: Name + Phone -->
+            <div class="contact-form-row">
+              <div class="contact-field">
+                <label class="contact-label" for="cf-name">Full Name</label>
+                <div class="contact-input-wrap">
+                  <i class="fa-solid fa-user contact-field-icon"></i>
+                  <input
+                    type="text"
+                    id="cf-name"
+                    name="name"
+                    placeholder="John Doe"
+                    autocomplete="name"
+                    class="contact-input"
+                  />
+                </div>
+                <span class="contact-error" id="err-name">Please enter your full name.</span>
+              </div>
+
+              <div class="contact-field">
+                <label class="contact-label" for="cf-phone">Phone Number</label>
+                <div class="contact-input-wrap">
+                  <i class="fa-solid fa-phone contact-field-icon"></i>
+                  <input
+                    type="tel"
+                    id="cf-phone"
+                    name="phone"
+                    placeholder="+1 234 567 8900"
+                    autocomplete="tel"
+                    class="contact-input"
+                  />
+                </div>
+                <span class="contact-error" id="err-phone">Enter a valid phone number (digits only).</span>
+              </div>
+            </div>
+
+            <!-- Row 2: Email -->
+            <div class="contact-field">
+              <label class="contact-label" for="cf-email">Email Address</label>
+              <div class="contact-input-wrap">
+                <i class="fa-solid fa-envelope contact-field-icon"></i>
+                <input
+                  type="email"
+                  id="cf-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  class="contact-input"
+                />
+              </div>
+              <span class="contact-error" id="err-email">Please enter a valid email address.</span>
+            </div>
+
+            <!-- Row 3: Message -->
+            <div class="contact-field">
+              <label class="contact-label" for="cf-message">
+                Message
+                <span class="contact-char-count" id="charCount">0 / 500</span>
+              </label>
+              <div class="contact-input-wrap contact-textarea-wrap">
+                <i class="fa-solid fa-comment-dots contact-field-icon"></i>
+                <textarea
+                  id="cf-message"
+                  name="message"
+                  placeholder="Tell us about your question — investment queries, wallet setup, loan eligibility..."
+                  class="contact-input contact-textarea"
+                  maxlength="500"
+                  rows="5"
+                ></textarea>
+              </div>
+              <span class="contact-error" id="err-message">Please enter a message (at least 10 characters).</span>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn--primary contact-submit" id="contactSubmit">
+              <span class="contact-submit-text">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </span>
+              <span class="contact-submit-spinner" style="display:none;">
+                <i class="fa-solid fa-spinner fa-spin"></i> Sending...
+              </span>
+            </button>
+
+          </form>
+
+          <!-- Success message (hidden by default) -->
+          <div class="contact-success" id="contactSuccess" style="display:none;">
+            <div class="contact-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <strong>Message Sent Successfully!</strong>
+              <p>We'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== FOOTER ========================================== -->
+  <footer class="footer" id="contact">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-sing">SING</span><span class="logo-tel">TEL</span>
+            <span class="logo-tag">INFOTECH</span>
+          </div>
+          <p>A blockchain-powered investment platform built on transparency, community, and sustainable daily returns.</p>
+          <div class="footer-socials">
+            <!-- <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a> -->
+            <a href="https://wa.me/918248840287?text=Hello%20I%20saw%20your%20website%20and%20I%20am%20interested%20in%20your%20service" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#wallets">Wallets</a></li>
+            <li><a href="#roi">ROI & Income</a></li>
+            <li><a href="#levels">Level Income</a></li>
+            <li><a href="#loan">Loan Options</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#withdrawals">Withdrawals</a></li>
+            <li><a href="#terms">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-cta-block">
+          <h4>Start Today</h4>
+          <p>Free registration. No entry cost.</p>
+          <a href="http://www.singtelinfotech.net" target="_blank" class="btn btn--primary btn--sm">
+            Visit Platform <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <div class="footer-url">www.singtelinfotech.net</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Singtel Infotech. All rights reserved. Investment involves risk. Read all terms before participating.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
