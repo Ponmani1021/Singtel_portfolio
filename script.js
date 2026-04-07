@@ -274,3 +274,23 @@ document.querySelectorAll('.level-row').forEach((row, i) => {
   contactRevealEls.forEach(el => observer.observe(el));
 
 })();
+
+
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  fetch("/", {
+    method: "POST",
+    body: formData
+  })
+  .then(() => {
+    document.getElementById("contactSuccess").style.display = "flex";
+    form.reset();
+  })
+  .catch((error) => alert("Error: " + error));
+});
+
